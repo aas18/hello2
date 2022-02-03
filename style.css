@@ -1,0 +1,57 @@
+/* style for index and imagesearch */
+
+.content{
+   
+        position: relative;
+        margin-top: 200px;
+        padding: 20px;
+        text-align: center;      
+    
+}
+
+#name{
+    
+    border:1px solid grey;
+    width: 600px;
+    height: 35px;
+    border-radius: 20px;
+    background-color:#FFFFFF;
+    color:gray;
+    margin-bottom: 20px;
+    outline: none;
+    background: url("/search.png")no-repeat scroll 14px 11px;
+    background-size: 16px;
+    padding-left: 35px;
+    display:inline-block;
+    
+}
+input:-webkit-autofill {
+    transition: background-color 5000s ease-in-out 0s;
+}
+#name:focus{
+    box-shadow: 1px 1px 2px 2px rgb(209, 208, 208);
+   
+        border: 1px solid grey;
+        background-color:#FFFFFF;     
+  
+}
+#name:hover{
+   
+    box-shadow: 1px 1px 2px 2px rgb(209, 208, 208);
+}
+
+.mybuttons{
+    margin: top 20px;
+    margin-right: 10px;
+    height: 35px;
+    font-size: 15px;
+    background-color:rgb(223, 221, 230);
+    color: rgb(27, 27, 27);
+    border-width: 0px; 
+}
+
+.mybuttons:hover{   
+    border:1px solid grey;      
+    
+}
+

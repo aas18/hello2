@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advance Search</title>
+        <link rel="stylesheet" href="style2.css">
+        <link rel="Stylesheet" href="style1.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">           
+            
+    </head>
+    <body>
+        <div class="header">
+            <a href="\index.html ">Google Search</a>
+        </div>
+        <h3 class="content">
+            Advanced search
+        </h3>    
+        
+        <div class="grid">
+            <form id="myform" action="https://www.google.com/search?as_q=&as_epq=&as_oq=&as_eq=">
+
+                
+                <div> <h3>Find pages with...</h3></div>
+                <div class="textbox"></div>
+                <div class="divsearchcontent"><h4> To do this in the search box</h4></div>
+                
+                <div> <label class="lbl1">all these words:</label></div>
+                <div class="textbox"><input type="text" name="as_q" id="word1" value="" minlength="10" class="word"></div>
+                <div class="divsearchcontent"><label class="searchboxcontent"> Type the important words:  tricolor rat terrier</label></div>
+
+
+                 <div><label class="lbl1">this exact word or phrase:  </label></div>
+               <div class="textbox"><input type="text" name="as_epq" id="word2" value="" class="word"></div>
+                <div class="divsearchcontent"><label class="searchboxcontent">Put exact words in quotes:  "rat terrier" </label></div>
+                
+
+                <div><label class="lbl1">any of these words: </label></div>
+                <div class="textbox"><input type="text" name="as_oq" id="word3" value="" class="word"></div>
+               <div class="divsearchcontent"><label class="searchboxcontent">Type OR between all the words you want:  miniature OR standard</label></div>
+
+
+                <div> <label class="lbl1">none of these words: </label></div>
+                 <div class="textbox"><input type="text" name="as_eq" id="word4" value="" class="word"></div>
+                <div class="divsearchcontent"><label class="searchboxcontent">Put a minus sign just before words you don't want:  -rodent, -"Jack Russell"</label></div>
+               
+                
+                <div>    <label> </label></div>
+                <div class="btndiv"><input type="submit" name="submit" value="Advanced Search" id="AdvancedSearch"></div>
+                <div><label> </label></div>            
+
+          
+                 </form>
+</div>
+    
+        
+    </body>
+</html>

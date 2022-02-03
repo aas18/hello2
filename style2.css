@@ -1,0 +1,81 @@
+/* style for advancedsearch */
+
+.content{
+     font-size: 30px;
+    color: rgb(189, 15, 15);
+
+    border-bottom: 1px solid rgb(156, 154, 154);
+    padding: 20px;  
+
+}
+#myform{
+    display: grid;
+    grid-template-columns: 200px  640px 200px ;
+    grid-gap: 10px;
+    text-align: left;
+    margin-left: 20px;
+} 
+.grid h3{
+    color:rgb(39, 38, 38);  
+}
+.grid h4{
+    color:rgb(139, 134, 134);
+}
+.lbl1{
+    font-size:17px;
+    
+    color:rgb(26, 25, 25);
+}
+.lbl2{
+    font-size: 20px;
+    color:rgb(139, 134, 134);
+ }
+.lbl3{
+    font-size: 17px;
+    
+ }
+.textbox{
+  
+    text-align:left;
+    /* border: 1px solid grey; */
+    height: 30px;
+    color:white;
+    resize: horizontal ;
+}
+.word{
+        width: 600px;
+        background-color:#FFFFFF;
+        border:grey solid 1px;
+        height: 20px;
+        color:gray;
+        outline: none;
+
+    }
+.word:focus{
+        border: 1px solid blue;
+        box-shadow: 1px 1px 2px 2px rgb(209, 208, 208);
+    }
+.searchboxcontent{
+    font-size:14px;
+    color:rgb(78, 78, 80);
+    
+   
+}
+.btndiv{
+    border: none;
+    text-align: right;
+    width: 605px
+   
+}
+
+.btndiv #AdvancedSearch{
+    background-color: rgb(99, 99, 245);
+    color: white;
+    padding: 8px;
+    border:rgb(99, 99, 245) solid 1px;
+ }
+.btndiv #AdvancedSearch:hover{
+    background-color: rgb(99, 99, 245);
+     border:rgb(42, 29, 224) solid 1px;
+
+ }
